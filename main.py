@@ -7,7 +7,7 @@ def main():
     print("answer: ", end="")
 
     if user_option == '+':
-        ...
+        print(addition(num1, num2))
     elif user_option == '-':
         ...
     elif user_option == "*":
@@ -16,6 +16,7 @@ def main():
         print("Invalid option")
 
     
-
+def addition(num1, num2):
+    return num1+num2
 
 main()
