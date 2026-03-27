@@ -11,12 +11,15 @@ def main():
     elif user_option == '-':
         ...
     elif user_option == "*":
-        ...
+        print(multipication(num1, num2))
     else:
         print("Invalid option")
 
     
 def addition(num1, num2):
     return num1+num2
+
+def multipication(num1, num2):
+    return num1*num2
 
 main()
