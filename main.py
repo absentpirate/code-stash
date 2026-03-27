@@ -7,7 +7,7 @@ def main():
     print("answer: ", end="")
 
     if user_option == '+':
-        ...
+        print(addition(num1, num2))
     elif user_option == '-':
         print(subtract(user_input1, user_input2))
     elif user_option == "*":
@@ -18,5 +18,8 @@ def main():
 def subtract(num1, num2):
     return num1-num2
 
+    
+def addition(num1, num2):
+    return num1+num2
 
 main()
