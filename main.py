@@ -16,6 +16,8 @@ def main():
         print("Invalid option")
         print("Valid options are: +, -, *")
 
+    print("~~ Rerun the program to continue~~")
+
     
 
 
