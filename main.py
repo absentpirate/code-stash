@@ -14,6 +14,7 @@ def main():
         print(multipication(user_input1, user_input2))
     else:
         print("Invalid option")
+        print("Valid options are: +, -, *")
 
     
 
