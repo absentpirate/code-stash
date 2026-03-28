@@ -7,11 +7,11 @@ def main():
     print("answer: ", end="")
 
     if user_option == '+':
-        print(addition(num1, num2))
+        print(addition(user_input1, user_input2))
     elif user_option == '-':
         print(subtract(user_input1, user_input2))
     elif user_option == "*":
-        print(multipication(num1, num2))
+        print(multipication(user_input1, user_input2))
     else:
         print("Invalid option")
 
